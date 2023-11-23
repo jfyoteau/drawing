@@ -58,17 +58,6 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
 
     // ========================================================================================
-    // Android Test
-    // ========================================================================================
-    androidTestImplementation(libs.androidx.test.ext.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-
-    // ========================================================================================
-    // Test
-    // ========================================================================================
-    testImplementation(libs.junit)
-
-    // ========================================================================================
     // Androidx Compose
     // ========================================================================================
     implementation(platform(libs.androidx.compose.bom))
@@ -77,12 +66,6 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
 
-    debugImplementation(libs.androidx.compose.ui.test.manifest)
+    // Used by Android Studio to display preview
     debugImplementation(libs.androidx.compose.ui.tooling)
-
-    // ========================================================================================
-    // Androidx Compose Test
-    // ========================================================================================
-    androidTestImplementation(platform(libs.androidx.compose.bom))
-    androidTestImplementation(libs.androidx.compose.ui.test.junit4)
 }
