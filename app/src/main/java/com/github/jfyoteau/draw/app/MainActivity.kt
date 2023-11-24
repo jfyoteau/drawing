@@ -21,7 +21,7 @@ import com.github.jfyoteau.draw.app.ui.drawer.Drawer
 import com.github.jfyoteau.draw.app.ui.drawer.action.AddCircleDrawerAction
 import com.github.jfyoteau.draw.app.ui.drawer.action.AddLineDrawerAction
 import com.github.jfyoteau.draw.app.ui.drawer.rememberDrawerState
-import com.github.jfyoteau.draw.app.ui.theme.DrawTheme
+import com.github.jfyoteau.draw.core.ui.theme.DrawTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -10,7 +10,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.tooling.preview.Preview
 import com.github.jfyoteau.draw.app.ui.drawer.action.AddLineDrawerAction
-import com.github.jfyoteau.draw.app.ui.theme.DrawTheme
+import com.github.jfyoteau.draw.core.ui.theme.DrawTheme
 
 @Composable
 fun Drawer(

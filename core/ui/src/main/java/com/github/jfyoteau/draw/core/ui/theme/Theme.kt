@@ -1,4 +1,4 @@
-package com.github.jfyoteau.draw.app.ui.theme
+package com.github.jfyoteau.draw.core.ui.theme
 
 import android.app.Activity
 import android.os.Build

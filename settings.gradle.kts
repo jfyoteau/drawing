@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Draw"
 include(":app")
+include(":core:ui")
