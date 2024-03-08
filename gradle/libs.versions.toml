@@ -1,19 +1,19 @@
 [versions]
-agp = "8.2.0-rc03"
+agp = "8.3.0"
 android-sdk-compile = "34"
 android-sdk-min = "29"
 android-sdk-target = "34"
-androidx-activity-compose = "1.8.1"
-androidx-compose-bom = "2023.10.01"
-androidx-compose-compiler = "1.5.4"
+androidx-activity-compose = "1.8.2"
+androidx-compose-bom = "2024.02.02"
+androidx-compose-compiler = "1.5.10"
 androidx-core-ktx = "1.12.0"
 androidx-espresso-core = "3.5.1"
-androidx-lifecycle-runtime-ktx = "2.6.2"
+androidx-lifecycle-runtime-ktx = "2.7.0"
 androidx-test-ext-junit = "1.1.5"
 junit = "4.13.2"
-kotlin = "1.9.20"
+kotlin = "1.9.22"
 appcompat = "1.6.1"
-material = "1.10.0"
+material = "1.11.0"
 
 [libraries]
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity-compose" }
